@@ -1,0 +1,87 @@
+html, body {
+  padding:0;
+  margin:0;
+}
+body {
+  text-align: center;
+  background-color: black;
+}
+::selection {
+  background-color:#c19430;
+  opacity:75;
+  color: white;
+}
+h1, h2, h3 {
+  font-family:'quicksand';
+  color:#c19430;
+  letter-spacing: 7.5px;
+}
+p {
+  font-family:'raleway';
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#header {
+  background-color:black;
+  padding-top:15vh;
+  padding-bottom:15vh;
+  text-align:center;
+  background-image:url(bg5.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  opacity: 0.75;
+}
+#aboutSection {
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color: white;
+}
+
+#break1 {
+  background-image: url(bkBG1.jpg);
+  padding-top:20vh;
+  padding-bottom:20vh;
+  background-position:center;
+  background-attachment: fixed;
+  background-size:cover;
+  font-size:25px;
+}
+#portfolioSection {
+  padding-top:2%;
+  padding-bottom:2%;
+  background-color: white;
+}
+#break2 {
+  background-image: url(bkBG2.jpg);
+  padding-top:20vh;
+  padding-bottom:20vh;
+  background-position:center;
+  background-attachment: fixed;
+  background-size:cover;
+  font-size:25px;
+}
+
+/*Universal styles start here*/
+
+#buttonOptionOne {
+  border:solid 2px #c19430;
+  padding-left: .4%;
+  padding-right:.4%;
+  padding-top:0.3%;
+  padding-bottom:0.3%;
+  font-size: 16px;
+  background-color:transparent;
+  color:#c19430;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#buttonOptionOne:hover {
+  background-color:#c19430;
+  color:white;
+}
+#accentLineOne {
+  width:10%;
+  height:2px;
+  background-color:#c19430;
+  border:none;
+}
